@@ -203,6 +203,8 @@ Replace the example URL and credentials with values for your own CRM test enviro
 
 Do not commit the `.env` file or real credentials. The repository's `.gitignore` already excludes `.env` files.
 
+**Credential hygiene:** The repository currently also contains `testData/login.json` with the values `admin` / `admin`. The main test suite uses environment variables for authentication instead. If those values are valid for any accessible CRM instance, change the password immediately, remove the credential file from the public repository, and keep all credentials in environment variables or a secret manager. Do not assume that a credential is safe to publish because it looks like a default or sample value.
+
 ### 5. Check the CRM test data
 
 Review the JSON files in `testData/` and ensure that any referenced related records already exist in the CRM instance. Examples used by the current tests include organization, contact, vendor, product, quote, and shipping-carrier records.
