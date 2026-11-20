@@ -17,9 +17,6 @@ A UI test automation project for the Vtiger CRM application, built with **Playwr
 - [Authentication and Storage State](#authentication-and-storage-state)
 - [Reports and Debugging](#reports-and-debugging)
 - [CI/CD Integration](#cicd-integration)
-- [Test Data and Environment Notes](#test-data-and-environment-notes)
-- [Known Limitations and Next Improvements](#known-limitations-and-next-improvements)
-- [Author](#author)
 
 ## Project Overview
 
